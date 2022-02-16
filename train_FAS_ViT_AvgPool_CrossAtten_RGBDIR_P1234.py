@@ -168,8 +168,6 @@ def train_test():
             
             n = inputs.size(0)
             loss_absolute.update(loss_global.data, n)
-            loss_contra.update(loss_global.data, n)
-            loss_absolute_RGB.update(loss_global.data, n)
         
 
             if i % echo_batches == echo_batches-1:    # print every 50 mini-batches
@@ -178,10 +176,10 @@ def train_test():
                 FeatureMap2Heatmap(inputs, inputs_depth, inputs_ir)
 
                 # log written
-                print('epoch:%d, mini-batch:%3d, lr=%f, CE_global= %.4f , CE1= %.4f , CE2= %.4f \n' % (epoch + 1, i + 1, lr,  loss_absolute.avg,  loss_contra.avg,  loss_absolute_RGB.avg))
+                print('epoch:%d, mini-batch:%3d, lr=%f, CE_global= %.4f  \n' % (epoch + 1, i + 1, lr,  loss_absolute.avg))
         
         # whole epoch average
-        log_file.write('epoch:%d, mini-batch:%3d, lr=%f, CE_global= %.4f , CE1= %.4f , CE2= %.4f \n' % (epoch + 1, i + 1, lr,  loss_absolute.avg,  loss_contra.avg,  loss_absolute_RGB.avg))
+        log_file.write('epoch:%d, mini-batch:%3d, lr=%f, CE_global= %.4f  \n' % (epoch + 1, i + 1, lr,  loss_absolute.avg))
         log_file.flush()
     
                     

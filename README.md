@@ -1,4 +1,4 @@
-# Flexible-Modal FAS 🔥
+# Flexible-Modal FAS
 
 This is the official repository of "**[Flexible-Modal Face Anti-Spoofing: A Benchmark](https://arxiv.org/pdf/2106.14948.pdf)**"
 

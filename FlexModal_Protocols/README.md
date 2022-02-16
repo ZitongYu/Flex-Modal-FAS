@@ -1,4 +1,5 @@
 All the train/val/test splitings are the same as the original splitings in CASIA-SURF and CeFA datasets.
+We sample 3 frames for most videos.
 
 There are two small issues/sepcial settings in the protocols, and we mark here.
 

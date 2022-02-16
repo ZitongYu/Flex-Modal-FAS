@@ -6,7 +6,7 @@ There are two small issues/sepcial settings in the protocols, and we mark here.
 --------------------------------
 
 # For the CeFA dataset:
-We only sample the first frame of most of the videos in 'CeFA-Mask/3D-Mask' for testing.
+We only sample the first frame of most of the videos in 'CeFA-Mask/3D-Mask' for testing as there are many frames missing in these directors.
 
 ---------------------------------
 

@@ -7,7 +7,7 @@ If you find our work useful in your research, please consider citing:
 
     @article{yu2022flexible,
       title={Flexible-Modal Face Anti-Spoofing: A Benchmark},
-      author={Yu, Zitong and Zhao, Chenxu and Cheng, Kevin HM and Cheng, Xu and Zhao, Guoying},
+      author={Yu, Zitong and Liu, Ajian and Zhao, Chenxu and Cheng, Kevin HM and Cheng, Xu and Zhao, Guoying},
       journal={arXiv preprint arXiv:2202.08192},
       year={2022}
     }
